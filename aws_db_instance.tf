@@ -12,6 +12,6 @@ resource "aws_db_instance" "default" {
 
 
 
-#data "aws_db_instance" "database" {
-#  db_instance_identifier = "my-test-database"
-#}
+data "aws_db_instance" "database" {
+  db_instance_identifier = "my-test-database"
+}
